@@ -12,3 +12,11 @@ let scene = new ScrollMagic.Scene({
   .setTween(timeline)
   .setPin("section")
   .addTo(controller);
+
+
+  const hamm=document.querySelector(".ham");
+  hamm.addEventListener('click',function(){
+    document.querySelector(".gallery2").classList.toggle("change");
+    document.querySelector(".main").classList.toggle("all");
+  })
+  

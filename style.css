@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family:  'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f2f2f2; 
+}
+
+.content{
+    padding: 2em;
+    height: 40vh;  
+}
+/*this comes*/
+.container{   
+    height: 100%;
+}
+.text{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transform: translateY(2.25em);
+    z-index: -1;
+    width: 100%;
+}
+input{
+    border: blue 1px solid;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    margin-top: 2.4em;
+}
+h1{
+    font-weight: 650;
+    font-size: 40px;
+    margin-bottom: 0.3em;
+}
+p{
+    line-height: 1.3;
+}
+/*under content*/
+
+
+
+.galley{
+    height: 100vh;
+    background-color: brown; /*for color difference*/
+    position: absolute;
+    width: 100%;
+    
+    
+}
+/*add infine scroll in gallery div if it works like that*/
+
+
+
+
+

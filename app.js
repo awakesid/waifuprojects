@@ -46,6 +46,7 @@ let scene = new ScrollMagic.Scene({
     document.querySelector(".third").classList.toggle("t");
     document.querySelector(".gallery1").classList.toggle("g1");
     document.querySelector(".content").classList.toggle("cot");
+    document.querySelector("body").classList.toggle("mainbody")
     var r=getCurrentRotation(document.querySelector(".first"));
     if(r===45){
     setTimeout(function(){

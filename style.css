@@ -62,16 +62,19 @@ p{
 }
 /*under content*/
 
-
-
 .gallery{
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 1;
-    
-
 }
+@media (max-height:735px){
+    .gallery{
+        z-index: -1;
+    }
+}
+
+
 .gallery1{  
     height: 60vh;
     background-color:#f2f2f2; /*for color difference*/

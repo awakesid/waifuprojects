@@ -12,8 +12,10 @@
 
 body{
     height: 100vh;
-    background-color: black;
-    
+    background-color: black; 
+}
+.mainbody{
+    overflow: hidden;
 }
 
 .content{

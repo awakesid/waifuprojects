@@ -102,7 +102,7 @@ p{
     
 }
 .all{
-    transform: scale(80%) translateX(200px);
+    transform: scale(85%) translateX(230px);
 }
 .change{
     display: none;
@@ -149,14 +149,89 @@ p{
     transform: rotate(45deg);
 }
 
-
+/*begning of backside css*/
 .backside{
     position: absolute;
     z-index: -1;
     width: 100%;
     height: 100vh;
-    background-color: cadetblue; 
+    background: linear-gradient(218deg, rgba(2,0,36,1) 0%, rgba(240,245,249,1) 0%, rgba(209,222,230,1) 68%);
+    padding: 1.3em 9em 2em 2em; 
+}
+ul{
+    list-style-type:none ;
+}
+li{
+    display: flex;
+}
+.menus ul li{
+    height: 26px;
+}
+.social ul li{
+    height: 25px;
+}
+.head{
+    display: flex;
+}
+.head img{
+    height: 52px;
+}
+.head h3{
+    margin-top: 0.7em;
+    margin-left:0.4em ;
+    font-size: 1.2em;
+    color: #52616B;
+}
+.menus{
+    margin-top: 5.5em; 
+    margin-bottom: 4em;
+}
+.menus p{
+    margin-left: 0.7em;
+    margin-top: 0.3em;
+    color: #52616B;
+    
+}
+.menus img{
+    width: 21px;
+    height: 23px;
+}
+.social{
+    margin-top: 16em;
+    margin-bottom: 3em;
+}
+.social img{
+    height: 22px;  
+}
+.foot div{
+    display: flex; 
 }
 
+.foot :nth-child(1) img{
+    height: 20px;
+    margin-right: 0.3em;
+}
+
+.foot :nth-child(1) p{
+    text-decoration: underline;
+    color: #52616B;
+}
+
+.foot :nth-child(1){
+    margin-bottom: 0.8em;
+    margin-left: 0em;
+}
+.foot p{
+    font-size: smaller;
+}
+.foot :nth-child(2) img{
+    height: 15px;
+    margin-left:0.2em ;
+}
+.foot :nth-child(2) p{
+    margin-left: 1.8em;
+    color: #52616B;
+}
+/*end of backside css*/
 
 

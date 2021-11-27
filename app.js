@@ -1,3 +1,5 @@
+
+
 let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
 
@@ -58,4 +60,14 @@ let scene = new ScrollMagic.Scene({
 
   }
   })
-  
+
+  // document.querySelector("p").addEventListener("click", function(){
+  //   window.location.hash="gaa";
+  // })
+
+// var windowHeight = window.innerHeight;
+
+document.querySelector("#enter").addEventListener("click",function(){
+  document.querySelector(".front").style.display="none";
+  document.documentElement.requestFullscreen();
+})

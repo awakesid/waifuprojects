@@ -234,4 +234,14 @@ li{
 }
 /*end of backside css*/
 
-
+.front{
+    position: absolute;
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    width: 100%;
+}

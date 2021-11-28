@@ -48,7 +48,8 @@ let scene = new ScrollMagic.Scene({
     document.querySelector(".third").classList.toggle("t");
     document.querySelector(".gallery1").classList.toggle("g1");
     document.querySelector(".content").classList.toggle("cot");
-    document.querySelector("body").classList.toggle("mainbody")
+    
+    document.querySelector("body").classList.toggle("mainbody");
     var r=getCurrentRotation(document.querySelector(".first"));
     if(r===45){
     setTimeout(function(){
@@ -58,6 +59,9 @@ let scene = new ScrollMagic.Scene({
   else{
     document.querySelector(".gallery2").classList.toggle("change");
 
+  }
+  for(var i=0; i<=4; i++){
+  document.querySelectorAll(".trans")[i].classList.toggle("transform");
   }
   })
 
@@ -71,3 +75,68 @@ document.querySelector("#enter").addEventListener("click",function(){
   document.querySelector(".front").style.display="none";
   document.documentElement.requestFullscreen();
 })
+
+
+
+
+
+
+document.querySelectorAll(".fill")[0].addEventListener("click",function(){
+  document.querySelectorAll(".fill")[0].style.display="none";
+  document.querySelectorAll(".line")[0].style.display="block";
+})
+document.querySelectorAll(".fill")[1].addEventListener("click",function(){
+  document.querySelectorAll(".fill")[1].style.display="none";
+  document.querySelectorAll(".line")[1].style.display="block";
+})
+document.querySelectorAll(".fill")[2].addEventListener("click",function(){
+  document.querySelectorAll(".fill")[2].style.display="none";
+  document.querySelectorAll(".line")[2].style.display="block";
+})
+document.querySelectorAll(".fill")[3].addEventListener("click",function(){
+  document.querySelectorAll(".fill")[3].style.display="none";
+  document.querySelectorAll(".line")[3].style.display="block";
+})
+document.querySelectorAll(".fill")[4].addEventListener("click",function(){
+  document.querySelectorAll(".fill")[4].style.display="none";
+  document.querySelectorAll(".line")[4].style.display="block";
+})
+document.querySelectorAll(".fill")[5].addEventListener("click",function(){
+  document.querySelectorAll(".fill")[5].style.display="none";
+  document.querySelectorAll(".line")[5].style.display="block";
+})
+
+
+
+
+
+document.querySelectorAll(".line")[0].addEventListener("click",function(){
+  document.querySelectorAll(".line")[0].style.display="none";
+  document.querySelectorAll(".fill")[0].style.display="block";
+})
+document.querySelectorAll(".line")[1].addEventListener("click",function(){
+  document.querySelectorAll(".line")[1].style.display="none";
+  document.querySelectorAll(".fill")[1].style.display="block";
+})
+document.querySelectorAll(".line")[2].addEventListener("click",function(){
+  document.querySelectorAll(".line")[2].style.display="none";
+  document.querySelectorAll(".fill")[2].style.display="block";
+})
+document.querySelectorAll(".line")[3].addEventListener("click",function(){
+  document.querySelectorAll(".line")[3].style.display="none";
+  document.querySelectorAll(".fill")[3].style.display="block";
+})
+document.querySelectorAll(".line")[4].addEventListener("click",function(){
+  document.querySelectorAll(".line")[4].style.display="none";
+  document.querySelectorAll(".fill")[4].style.display="block";
+})
+document.querySelectorAll(".line")[5].addEventListener("click",function(){
+  document.querySelectorAll(".line")[5].style.display="none";
+  document.querySelectorAll(".fill")[5].style.display="block";
+})
+
+
+
+
+
+
